@@ -9,9 +9,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Grocery L',
+      title: 'Grocery List',
       theme: ThemeData(
-        primarySwatch: Colors.amber[200],
+        primarySwatch: Colors.amber,
       ),
       home: SignInPage(),
     );
