@@ -12,7 +12,7 @@ class SignInPage extends StatelessWidget {
         centerTitle: true,
       ),
       body: _buildContent(),
-      backgroundColor: Colors.grey[200],
+      backgroundColor: Colors.grey[50],
     );
   }
 
