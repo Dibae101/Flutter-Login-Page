@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Grocery L',
       theme: ThemeData(
-        primarySwatch: Colors.amber,
+        primarySwatch: Colors.amber[200],
       ),
       home: SignInPage(),
     );
